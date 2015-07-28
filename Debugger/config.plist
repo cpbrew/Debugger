@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>env</key>
+	<string>prod</string>
+	<key>type</key>
+	<string>p2p</string>
+	<key>api_key</key>
+	<string></string>
+	<key>api_secret</key>
+	<string></string>
+	<key>prod</key>
+	<dict>
+		<key>p2p</key>
+		<dict>
+			<key>session_id</key>
+			<string>1_MX4xMDB-MTI3LjAuMC4xflRodSBKdW4gMTIgMTE6NDU6MDYgUERUIDIwMTR-MC43OTIwMzk2flB-</string>
+		</dict>
+		<key>mantis</key>
+		<dict>
+			<key>session_id</key>
+			<string>1_MX4xMDB-MTI3LjAuMC4xflRodSBKdW4gMTIgMTE6NTg6NTcgUERUIDIwMTR-MC44MDY4MTN-fg</string>
+		</dict>
+	</dict>
+	<key>tbrel</key>
+	<dict>
+		<key>service_url</key>
+		<string>https://anvil-tbrel.opentok.com</string>
+		<key>p2p</key>
+		<dict>
+			<key>session_id</key>
+			<string>1_MX4xMDB-fjE0MzA3NzY4OTUwOTh-dXdINko2TmxrK1hKUkxvK1NZaTFHR3RLflB-</string>
+		</dict>
+		<key>mantis</key>
+		<dict>
+			<key>session_id</key>
+			<string>2_MX4xMDB-fjE0MzA3NzY5NTc2NzB-aUVLVUZJYkMxcUtSenA0b0xkOThiNjNUfn4</string>
+		</dict>
+	</dict>
+	<key>tbdev</key>
+	<dict>
+		<key>service_url</key>
+		<string>https://anvil-tbdev.opentok.com</string>
+	</dict>
+	<key>auto_connect</key>
+	<true/>
+	<key>auto_publish</key>
+	<true/>
+	<key>auto_subscribe</key>
+	<true/>
+	<key>test_signaling</key>
+	<false/>
+	<key>test_turn_tcp</key>
+	<false/>
+	<key>debug_logging</key>
+	<false/>
+</dict>
+</plist>

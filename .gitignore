@@ -1,0 +1,4 @@
+# Ignore user config folders named
+Debugger.xcodeproj/project.xcworkspace
+Debugger.xcodeproj/xcuserdata
+.DS_Store
