@@ -91,8 +91,8 @@
     [self repositionContainers];
 }
 
-- (NSUInteger)supportedInterfaceOrientations {
-    return UIInterfaceOrientationMaskAll;
+- (BOOL)prefersStatusBarHidden {
+    return YES;
 }
 
 #pragma mark - OpenTok methods

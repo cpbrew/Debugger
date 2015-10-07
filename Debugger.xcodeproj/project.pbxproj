@@ -10,6 +10,7 @@
 		051A9B3A17B2ECA20086FD6A /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 051A9B3917B2ECA20086FD6A /* config.plist */; };
 		052E38D01AF984E900163907 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052E38CF1AF984E900163907 /* CFNetwork.framework */; };
 		053160321778D38300811CEA /* SubscriberOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 053160311778D38300811CEA /* SubscriberOptions.m */; };
+		05346B061BC5C0A20038AB49 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 05346B051BC5C0A20038AB49 /* libc++.tbd */; };
 		054ADBE816EEA01E003DEAAE /* radioactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 054ADBE716EEA01E003DEAAE /* radioactive.png */; };
 		05516C0C1A3BA19D00A85456 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05516C0B1A3BA19D00A85456 /* VideoToolbox.framework */; };
 		055698B018E3820D000FD46D /* ServerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 055698AF18E3820D000FD46D /* ServerUtils.m */; };
@@ -27,12 +28,10 @@
 		05808B8219A5794400577BEA /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B8119A5794400577BEA /* OpenGLES.framework */; };
 		05808B8419A5798F00577BEA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B8319A5798F00577BEA /* QuartzCore.framework */; };
 		05808B8619A57AB700577BEA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B8519A57AB700577BEA /* SystemConfiguration.framework */; };
-		05808B8819A57B1400577BEA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B8719A57B1400577BEA /* libsqlite3.dylib */; };
 		059B457416E7D16E00C0BB24 /* StreamContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 059B457316E7D16E00C0BB24 /* StreamContainer.m */; };
 		059B457E16E7D2FF00C0BB24 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 059B457D16E7D2FF00C0BB24 /* Utils.m */; };
 		059B463B16E81A9500C0BB24 /* OptionsMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 059B463A16E81A9500C0BB24 /* OptionsMenu.m */; };
 		05A64B371775228E00110A0D /* PublisherOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A64B361775228E00110A0D /* PublisherOptions.m */; };
-		05EACF101AA11E5F00A8C294 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EACF0F1AA11E5F00A8C294 /* libc++.dylib */; };
 		05EE9D5516D58CCD005FF5A1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05EE9D5416D58CCD005FF5A1 /* Default-568h@2x.png */; };
 		1FE24FC614F71E47002929E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FE24FC414F71E47002929E6 /* InfoPlist.strings */; };
 		1FE24FC814F71E47002929E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE24FC714F71E47002929E6 /* main.m */; };
@@ -45,6 +44,7 @@
 		052E38CF1AF984E900163907 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		053160301778D38300811CEA /* SubscriberOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriberOptions.h; sourceTree = "<group>"; };
 		053160311778D38300811CEA /* SubscriberOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscriberOptions.m; sourceTree = "<group>"; };
+		05346B051BC5C0A20038AB49 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		054ADBE716EEA01E003DEAAE /* radioactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radioactive.png; sourceTree = "<group>"; };
 		05516C0B1A3BA19D00A85456 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		055698AE18E3820D000FD46D /* ServerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerUtils.h; sourceTree = "<group>"; };
@@ -66,7 +66,6 @@
 		05808B8119A5794400577BEA /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		05808B8319A5798F00577BEA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		05808B8519A57AB700577BEA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		05808B8719A57B1400577BEA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		05811DE719A8134E006A2472 /* Debugger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Debugger.entitlements; sourceTree = "<group>"; };
 		059B457216E7D16E00C0BB24 /* StreamContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamContainer.h; sourceTree = "<group>"; };
 		059B457316E7D16E00C0BB24 /* StreamContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamContainer.m; sourceTree = "<group>"; };
@@ -76,7 +75,6 @@
 		059B463A16E81A9500C0BB24 /* OptionsMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsMenu.m; sourceTree = "<group>"; };
 		05A64B351775228E00110A0D /* PublisherOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublisherOptions.h; sourceTree = "<group>"; };
 		05A64B361775228E00110A0D /* PublisherOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublisherOptions.m; sourceTree = "<group>"; };
-		05EACF0F1AA11E5F00A8C294 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		05EE9D5416D58CCD005FF5A1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		1FE24FB714F71E47002929E6 /* Debugger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Debugger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE24FC314F71E47002929E6 /* Debugger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Debugger-Info.plist"; sourceTree = "<group>"; };
@@ -94,8 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05346B061BC5C0A20038AB49 /* libc++.tbd in Frameworks */,
 				052E38D01AF984E900163907 /* CFNetwork.framework in Frameworks */,
-				05EACF101AA11E5F00A8C294 /* libc++.dylib in Frameworks */,
 				05808B7619A576EB00577BEA /* AudioToolbox.framework in Frameworks */,
 				05808B7819A5770900577BEA /* AVFoundation.framework in Frameworks */,
 				05808B7A19A577A800577BEA /* CoreGraphics.framework in Frameworks */,
@@ -108,7 +106,6 @@
 				05808B8619A57AB700577BEA /* SystemConfiguration.framework in Frameworks */,
 				05808B7419A576D000577BEA /* UIKit.framework in Frameworks */,
 				05516C0C1A3BA19D00A85456 /* VideoToolbox.framework in Frameworks */,
-				05808B8819A57B1400577BEA /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,8 +155,8 @@
 		1FE24FBA14F71E47002929E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				05346B051BC5C0A20038AB49 /* libc++.tbd */,
 				052E38CF1AF984E900163907 /* CFNetwork.framework */,
-				05EACF0F1AA11E5F00A8C294 /* libc++.dylib */,
 				05808B7519A576EB00577BEA /* AudioToolbox.framework */,
 				05808B7719A5770900577BEA /* AVFoundation.framework */,
 				05808B7919A577A800577BEA /* CoreGraphics.framework */,
@@ -172,7 +169,6 @@
 				05808B8519A57AB700577BEA /* SystemConfiguration.framework */,
 				05808B7319A576D000577BEA /* UIKit.framework */,
 				05516C0B1A3BA19D00A85456 /* VideoToolbox.framework */,
-				05808B8719A57B1400577BEA /* libsqlite3.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -233,7 +229,7 @@
 		1FE24FAE14F71E47002929E6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0700;
 				TargetAttributes = {
 					1FE24FB614F71E47002929E6 = {
 						DevelopmentTeam = MGD69Q275W;
@@ -318,6 +314,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -369,9 +366,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = Debugger/Debugger.entitlements;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Debugger/Debugger-Prefix.pch";
 				INFOPLIST_FILE = "Debugger/Debugger-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tokbox.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Debugger;
 				WRAPPER_EXTENSION = app;
 			};
@@ -381,9 +380,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = Debugger/Debugger.entitlements;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Debugger/Debugger-Prefix.pch";
 				INFOPLIST_FILE = "Debugger/Debugger-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tokbox.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Debugger;
 				WRAPPER_EXTENSION = app;
 			};

@@ -73,13 +73,6 @@
     if (Utils.autoSubscribe && !_ownStream) [self doSubscribe];
 }
 
-- (NSUInteger)supportedInterfaceOrientations {
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
-        return UIInterfaceOrientationMaskAllButUpsideDown;
-    else
-        return UIInterfaceOrientationMaskAll;
-}
-
 #pragma mark - OpenTok methods
 
 - (void)doSubscribe {
