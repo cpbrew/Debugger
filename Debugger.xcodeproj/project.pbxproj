@@ -11,37 +11,6 @@
 		052E38D01AF984E900163907 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052E38CF1AF984E900163907 /* CFNetwork.framework */; };
 		053160321778D38300811CEA /* SubscriberOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 053160311778D38300811CEA /* SubscriberOptions.m */; };
 		05346B061BC5C0A20038AB49 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 05346B051BC5C0A20038AB49 /* libc++.tbd */; };
-		05346B381BC5DE9B0038AB49 /* ServerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 055698AF18E3820D000FD46D /* ServerUtils.m */; };
-		05346B391BC5DE9B0038AB49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE24FC714F71E47002929E6 /* main.m */; };
-		05346B3A1BC5DE9B0038AB49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE24FCB14F71E47002929E6 /* AppDelegate.m */; };
-		05346B3B1BC5DE9B0038AB49 /* TestXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 055698B818E3823D000FD46D /* TestXMLNode.m */; };
-		05346B3C1BC5DE9B0038AB49 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 055698B218E38229000FD46D /* NSData+Base64.m */; };
-		05346B3D1BC5DE9B0038AB49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE24FD414F71E47002929E6 /* ViewController.m */; };
-		05346B3E1BC5DE9B0038AB49 /* StreamContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 059B457316E7D16E00C0BB24 /* StreamContainer.m */; };
-		05346B3F1BC5DE9B0038AB49 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 059B457D16E7D2FF00C0BB24 /* Utils.m */; };
-		05346B401BC5DE9B0038AB49 /* NSData+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 055698B418E38229000FD46D /* NSData+HexString.m */; };
-		05346B411BC5DE9B0038AB49 /* OptionsMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 059B463A16E81A9500C0BB24 /* OptionsMenu.m */; };
-		05346B421BC5DE9B0038AB49 /* PublisherOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A64B361775228E00110A0D /* PublisherOptions.m */; };
-		05346B431BC5DE9B0038AB49 /* SubscriberOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 053160311778D38300811CEA /* SubscriberOptions.m */; };
-		05346B451BC5DE9B0038AB49 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 05346B051BC5C0A20038AB49 /* libc++.tbd */; };
-		05346B461BC5DE9B0038AB49 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052E38CF1AF984E900163907 /* CFNetwork.framework */; };
-		05346B471BC5DE9B0038AB49 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B7519A576EB00577BEA /* AudioToolbox.framework */; };
-		05346B481BC5DE9B0038AB49 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B7719A5770900577BEA /* AVFoundation.framework */; };
-		05346B491BC5DE9B0038AB49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B7919A577A800577BEA /* CoreGraphics.framework */; };
-		05346B4A1BC5DE9B0038AB49 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B7B19A577E100577BEA /* CoreMedia.framework */; };
-		05346B4B1BC5DE9B0038AB49 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B7D19A5782E00577BEA /* CoreTelephony.framework */; };
-		05346B4C1BC5DE9B0038AB49 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B7F19A5788100577BEA /* CoreVideo.framework */; };
-		05346B4D1BC5DE9B0038AB49 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B7119A576B800577BEA /* GLKit.framework */; };
-		05346B4E1BC5DE9B0038AB49 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B8119A5794400577BEA /* OpenGLES.framework */; };
-		05346B4F1BC5DE9B0038AB49 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B8319A5798F00577BEA /* QuartzCore.framework */; };
-		05346B501BC5DE9B0038AB49 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B8519A57AB700577BEA /* SystemConfiguration.framework */; };
-		05346B511BC5DE9B0038AB49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B7319A576D000577BEA /* UIKit.framework */; };
-		05346B521BC5DE9B0038AB49 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05516C0B1A3BA19D00A85456 /* VideoToolbox.framework */; };
-		05346B541BC5DE9B0038AB49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FE24FC414F71E47002929E6 /* InfoPlist.strings */; };
-		05346B551BC5DE9B0038AB49 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05EE9D5416D58CCD005FF5A1 /* Default-568h@2x.png */; };
-		05346B561BC5DE9B0038AB49 /* radioactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 054ADBE716EEA01E003DEAAE /* radioactive.png */; };
-		05346B571BC5DE9B0038AB49 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 051A9B3917B2ECA20086FD6A /* config.plist */; };
-		05346B5E1BC5DEBA0038AB49 /* OpenTok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05346B5D1BC5DEBA0038AB49 /* OpenTok.framework */; };
 		05346B611BC5DF380038AB49 /* ServerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 055698AF18E3820D000FD46D /* ServerUtils.m */; };
 		05346B621BC5DF380038AB49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE24FC714F71E47002929E6 /* main.m */; };
 		05346B631BC5DF380038AB49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE24FCB14F71E47002929E6 /* AppDelegate.m */; };
@@ -158,6 +127,37 @@
 		059B457E16E7D2FF00C0BB24 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 059B457D16E7D2FF00C0BB24 /* Utils.m */; };
 		059B463B16E81A9500C0BB24 /* OptionsMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 059B463A16E81A9500C0BB24 /* OptionsMenu.m */; };
 		05A64B371775228E00110A0D /* PublisherOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A64B361775228E00110A0D /* PublisherOptions.m */; };
+		05D3C5F41BC8708000A4532A /* ServerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 055698AF18E3820D000FD46D /* ServerUtils.m */; };
+		05D3C5F51BC8708000A4532A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE24FC714F71E47002929E6 /* main.m */; };
+		05D3C5F61BC8708000A4532A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE24FCB14F71E47002929E6 /* AppDelegate.m */; };
+		05D3C5F71BC8708000A4532A /* TestXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 055698B818E3823D000FD46D /* TestXMLNode.m */; };
+		05D3C5F81BC8708000A4532A /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 055698B218E38229000FD46D /* NSData+Base64.m */; };
+		05D3C5F91BC8708000A4532A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE24FD414F71E47002929E6 /* ViewController.m */; };
+		05D3C5FA1BC8708000A4532A /* StreamContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 059B457316E7D16E00C0BB24 /* StreamContainer.m */; };
+		05D3C5FB1BC8708000A4532A /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 059B457D16E7D2FF00C0BB24 /* Utils.m */; };
+		05D3C5FC1BC8708000A4532A /* NSData+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 055698B418E38229000FD46D /* NSData+HexString.m */; };
+		05D3C5FD1BC8708000A4532A /* OptionsMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 059B463A16E81A9500C0BB24 /* OptionsMenu.m */; };
+		05D3C5FE1BC8708000A4532A /* PublisherOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A64B361775228E00110A0D /* PublisherOptions.m */; };
+		05D3C5FF1BC8708000A4532A /* SubscriberOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 053160311778D38300811CEA /* SubscriberOptions.m */; };
+		05D3C6011BC8708000A4532A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 05346B051BC5C0A20038AB49 /* libc++.tbd */; };
+		05D3C6021BC8708000A4532A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052E38CF1AF984E900163907 /* CFNetwork.framework */; };
+		05D3C6031BC8708000A4532A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B7519A576EB00577BEA /* AudioToolbox.framework */; };
+		05D3C6041BC8708000A4532A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B7719A5770900577BEA /* AVFoundation.framework */; };
+		05D3C6051BC8708000A4532A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B7919A577A800577BEA /* CoreGraphics.framework */; };
+		05D3C6061BC8708000A4532A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B7B19A577E100577BEA /* CoreMedia.framework */; };
+		05D3C6071BC8708000A4532A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B7D19A5782E00577BEA /* CoreTelephony.framework */; };
+		05D3C6081BC8708000A4532A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B7F19A5788100577BEA /* CoreVideo.framework */; };
+		05D3C6091BC8708000A4532A /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B7119A576B800577BEA /* GLKit.framework */; };
+		05D3C60A1BC8708000A4532A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B8119A5794400577BEA /* OpenGLES.framework */; };
+		05D3C60B1BC8708000A4532A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B8319A5798F00577BEA /* QuartzCore.framework */; };
+		05D3C60C1BC8708000A4532A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B8519A57AB700577BEA /* SystemConfiguration.framework */; };
+		05D3C60D1BC8708000A4532A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05808B7319A576D000577BEA /* UIKit.framework */; };
+		05D3C60E1BC8708000A4532A /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05516C0B1A3BA19D00A85456 /* VideoToolbox.framework */; };
+		05D3C6101BC8708000A4532A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FE24FC414F71E47002929E6 /* InfoPlist.strings */; };
+		05D3C6111BC8708000A4532A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05EE9D5416D58CCD005FF5A1 /* Default-568h@2x.png */; };
+		05D3C6121BC8708000A4532A /* radioactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 054ADBE716EEA01E003DEAAE /* radioactive.png */; };
+		05D3C6131BC8708000A4532A /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 051A9B3917B2ECA20086FD6A /* config.plist */; };
+		05D3C61A1BC870BF00A4532A /* OpenTok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D3C6191BC870BF00A4532A /* OpenTok.framework */; };
 		05EE9D5516D58CCD005FF5A1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05EE9D5416D58CCD005FF5A1 /* Default-568h@2x.png */; };
 		1FE24FC614F71E47002929E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FE24FC414F71E47002929E6 /* InfoPlist.strings */; };
 		1FE24FC814F71E47002929E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE24FC714F71E47002929E6 /* main.m */; };
@@ -171,8 +171,6 @@
 		053160301778D38300811CEA /* SubscriberOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriberOptions.h; sourceTree = "<group>"; };
 		053160311778D38300811CEA /* SubscriberOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscriberOptions.m; sourceTree = "<group>"; };
 		05346B051BC5C0A20038AB49 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		05346B5B1BC5DE9B0038AB49 /* Debugger-2.6.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Debugger-2.6.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		05346B5D1BC5DEBA0038AB49 /* OpenTok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenTok.framework; path = "ios-2.6.0/OpenTok.framework"; sourceTree = "<group>"; };
 		05346B841BC5DF380038AB49 /* Debugger-2.5.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Debugger-2.5.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05346B861BC5DF6F0038AB49 /* OpenTok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenTok.framework; path = "ios-2.5.0/OpenTok.framework"; sourceTree = "<group>"; };
 		05346BAD1BC5E1C10038AB49 /* Debugger-2.4.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Debugger-2.4.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -211,6 +209,8 @@
 		059B463A16E81A9500C0BB24 /* OptionsMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsMenu.m; sourceTree = "<group>"; };
 		05A64B351775228E00110A0D /* PublisherOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublisherOptions.h; sourceTree = "<group>"; };
 		05A64B361775228E00110A0D /* PublisherOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublisherOptions.m; sourceTree = "<group>"; };
+		05D3C6171BC8708100A4532A /* Debugger-2.6.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Debugger-2.6.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05D3C6191BC870BF00A4532A /* OpenTok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenTok.framework; path = "ios-2.6.1/OpenTok.framework"; sourceTree = "<group>"; };
 		05EE9D5416D58CCD005FF5A1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		1FE24FB714F71E47002929E6 /* Debugger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Debugger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE24FC314F71E47002929E6 /* Debugger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Debugger-Info.plist"; sourceTree = "<group>"; };
@@ -224,28 +224,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		05346B441BC5DE9B0038AB49 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05346B5E1BC5DEBA0038AB49 /* OpenTok.framework in Frameworks */,
-				05346B451BC5DE9B0038AB49 /* libc++.tbd in Frameworks */,
-				05346B461BC5DE9B0038AB49 /* CFNetwork.framework in Frameworks */,
-				05346B471BC5DE9B0038AB49 /* AudioToolbox.framework in Frameworks */,
-				05346B481BC5DE9B0038AB49 /* AVFoundation.framework in Frameworks */,
-				05346B491BC5DE9B0038AB49 /* CoreGraphics.framework in Frameworks */,
-				05346B4A1BC5DE9B0038AB49 /* CoreMedia.framework in Frameworks */,
-				05346B4B1BC5DE9B0038AB49 /* CoreTelephony.framework in Frameworks */,
-				05346B4C1BC5DE9B0038AB49 /* CoreVideo.framework in Frameworks */,
-				05346B4D1BC5DE9B0038AB49 /* GLKit.framework in Frameworks */,
-				05346B4E1BC5DE9B0038AB49 /* OpenGLES.framework in Frameworks */,
-				05346B4F1BC5DE9B0038AB49 /* QuartzCore.framework in Frameworks */,
-				05346B501BC5DE9B0038AB49 /* SystemConfiguration.framework in Frameworks */,
-				05346B511BC5DE9B0038AB49 /* UIKit.framework in Frameworks */,
-				05346B521BC5DE9B0038AB49 /* VideoToolbox.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		05346B6D1BC5DF380038AB49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,6 +292,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		05D3C6001BC8708000A4532A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D3C61A1BC870BF00A4532A /* OpenTok.framework in Frameworks */,
+				05D3C6011BC8708000A4532A /* libc++.tbd in Frameworks */,
+				05D3C6021BC8708000A4532A /* CFNetwork.framework in Frameworks */,
+				05D3C6031BC8708000A4532A /* AudioToolbox.framework in Frameworks */,
+				05D3C6041BC8708000A4532A /* AVFoundation.framework in Frameworks */,
+				05D3C6051BC8708000A4532A /* CoreGraphics.framework in Frameworks */,
+				05D3C6061BC8708000A4532A /* CoreMedia.framework in Frameworks */,
+				05D3C6071BC8708000A4532A /* CoreTelephony.framework in Frameworks */,
+				05D3C6081BC8708000A4532A /* CoreVideo.framework in Frameworks */,
+				05D3C6091BC8708000A4532A /* GLKit.framework in Frameworks */,
+				05D3C60A1BC8708000A4532A /* OpenGLES.framework in Frameworks */,
+				05D3C60B1BC8708000A4532A /* QuartzCore.framework in Frameworks */,
+				05D3C60C1BC8708000A4532A /* SystemConfiguration.framework in Frameworks */,
+				05D3C60D1BC8708000A4532A /* UIKit.framework in Frameworks */,
+				05D3C60E1BC8708000A4532A /* VideoToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1FE24FB414F71E47002929E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -374,10 +374,10 @@
 			isa = PBXGroup;
 			children = (
 				1FE24FB714F71E47002929E6 /* Debugger.app */,
-				05346B5B1BC5DE9B0038AB49 /* Debugger-2.6.0.app */,
 				05346B841BC5DF380038AB49 /* Debugger-2.5.0.app */,
 				05346BAD1BC5E1C10038AB49 /* Debugger-2.4.1.app */,
 				05346BD81BC5E2760038AB49 /* Debugger-2.3.1.app */,
+				05D3C6171BC8708100A4532A /* Debugger-2.6.1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -385,12 +385,12 @@
 		1FE24FBA14F71E47002929E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				05D3C6191BC870BF00A4532A /* OpenTok.framework */,
 				05346BDD1BC5E3290038AB49 /* libstdc++.6.tbd */,
 				05346BDA1BC5E2E70038AB49 /* OpenTok.framework */,
 				05346BB11BC5E24B0038AB49 /* libsqlite3.tbd */,
 				05346BAF1BC5E21D0038AB49 /* OpenTok.framework */,
 				05346B861BC5DF6F0038AB49 /* OpenTok.framework */,
-				05346B5D1BC5DEBA0038AB49 /* OpenTok.framework */,
 				05346B051BC5C0A20038AB49 /* libc++.tbd */,
 				052E38CF1AF984E900163907 /* CFNetwork.framework */,
 				05808B7519A576EB00577BEA /* AudioToolbox.framework */,
@@ -442,23 +442,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		05346B361BC5DE9B0038AB49 /* Debugger-2.6.0 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 05346B581BC5DE9B0038AB49 /* Build configuration list for PBXNativeTarget "Debugger-2.6.0" */;
-			buildPhases = (
-				05346B371BC5DE9B0038AB49 /* Sources */,
-				05346B441BC5DE9B0038AB49 /* Frameworks */,
-				05346B531BC5DE9B0038AB49 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Debugger-2.6.0";
-			productName = Debugger;
-			productReference = 05346B5B1BC5DE9B0038AB49 /* Debugger-2.6.0.app */;
-			productType = "com.apple.product-type.application";
-		};
 		05346B5F1BC5DF380038AB49 /* Debugger-2.5.0 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05346B811BC5DF380038AB49 /* Build configuration list for PBXNativeTarget "Debugger-2.5.0" */;
@@ -510,6 +493,23 @@
 			productReference = 05346BD81BC5E2760038AB49 /* Debugger-2.3.1.app */;
 			productType = "com.apple.product-type.application";
 		};
+		05D3C5F21BC8708000A4532A /* Debugger-2.6.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05D3C6141BC8708000A4532A /* Build configuration list for PBXNativeTarget "Debugger-2.6.1" */;
+			buildPhases = (
+				05D3C5F31BC8708000A4532A /* Sources */,
+				05D3C6001BC8708000A4532A /* Frameworks */,
+				05D3C60F1BC8708000A4532A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Debugger-2.6.1";
+			productName = Debugger;
+			productReference = 05D3C6171BC8708100A4532A /* Debugger-2.6.1.app */;
+			productType = "com.apple.product-type.application";
+		};
 		1FE24FB614F71E47002929E6 /* Debugger */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FE24FD814F71E47002929E6 /* Build configuration list for PBXNativeTarget "Debugger" */;
@@ -554,7 +554,7 @@
 			projectRoot = "";
 			targets = (
 				1FE24FB614F71E47002929E6 /* Debugger */,
-				05346B361BC5DE9B0038AB49 /* Debugger-2.6.0 */,
+				05D3C5F21BC8708000A4532A /* Debugger-2.6.1 */,
 				05346B5F1BC5DF380038AB49 /* Debugger-2.5.0 */,
 				05346B881BC5E1C10038AB49 /* Debugger-2.4.1 */,
 				05346BB31BC5E2760038AB49 /* Debugger-2.3.1 */,
@@ -563,17 +563,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		05346B531BC5DE9B0038AB49 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05346B541BC5DE9B0038AB49 /* InfoPlist.strings in Resources */,
-				05346B551BC5DE9B0038AB49 /* Default-568h@2x.png in Resources */,
-				05346B561BC5DE9B0038AB49 /* radioactive.png in Resources */,
-				05346B571BC5DE9B0038AB49 /* config.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		05346B7C1BC5DF380038AB49 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -607,6 +596,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		05D3C60F1BC8708000A4532A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D3C6101BC8708000A4532A /* InfoPlist.strings in Resources */,
+				05D3C6111BC8708000A4532A /* Default-568h@2x.png in Resources */,
+				05D3C6121BC8708000A4532A /* radioactive.png in Resources */,
+				05D3C6131BC8708000A4532A /* config.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1FE24FB514F71E47002929E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -621,25 +621,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05346B371BC5DE9B0038AB49 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05346B381BC5DE9B0038AB49 /* ServerUtils.m in Sources */,
-				05346B391BC5DE9B0038AB49 /* main.m in Sources */,
-				05346B3A1BC5DE9B0038AB49 /* AppDelegate.m in Sources */,
-				05346B3B1BC5DE9B0038AB49 /* TestXMLNode.m in Sources */,
-				05346B3C1BC5DE9B0038AB49 /* NSData+Base64.m in Sources */,
-				05346B3D1BC5DE9B0038AB49 /* ViewController.m in Sources */,
-				05346B3E1BC5DE9B0038AB49 /* StreamContainer.m in Sources */,
-				05346B3F1BC5DE9B0038AB49 /* Utils.m in Sources */,
-				05346B401BC5DE9B0038AB49 /* NSData+HexString.m in Sources */,
-				05346B411BC5DE9B0038AB49 /* OptionsMenu.m in Sources */,
-				05346B421BC5DE9B0038AB49 /* PublisherOptions.m in Sources */,
-				05346B431BC5DE9B0038AB49 /* SubscriberOptions.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		05346B601BC5DF380038AB49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -697,6 +678,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		05D3C5F31BC8708000A4532A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D3C5F41BC8708000A4532A /* ServerUtils.m in Sources */,
+				05D3C5F51BC8708000A4532A /* main.m in Sources */,
+				05D3C5F61BC8708000A4532A /* AppDelegate.m in Sources */,
+				05D3C5F71BC8708000A4532A /* TestXMLNode.m in Sources */,
+				05D3C5F81BC8708000A4532A /* NSData+Base64.m in Sources */,
+				05D3C5F91BC8708000A4532A /* ViewController.m in Sources */,
+				05D3C5FA1BC8708000A4532A /* StreamContainer.m in Sources */,
+				05D3C5FB1BC8708000A4532A /* Utils.m in Sources */,
+				05D3C5FC1BC8708000A4532A /* NSData+HexString.m in Sources */,
+				05D3C5FD1BC8708000A4532A /* OptionsMenu.m in Sources */,
+				05D3C5FE1BC8708000A4532A /* PublisherOptions.m in Sources */,
+				05D3C5FF1BC8708000A4532A /* SubscriberOptions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1FE24FB314F71E47002929E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -730,42 +730,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		05346B591BC5DE9B0038AB49 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = Debugger/Debugger.entitlements;
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/ios-2.6.0",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Debugger/Debugger-Prefix.pch";
-				INFOPLIST_FILE = "Debugger/Debugger-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tokbox.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		05346B5A1BC5DE9B0038AB49 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = Debugger/Debugger.entitlements;
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/ios-2.6.0",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Debugger/Debugger-Prefix.pch";
-				INFOPLIST_FILE = "Debugger/Debugger-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tokbox.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 		05346B821BC5DF380038AB49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -876,6 +840,42 @@
 			};
 			name = Release;
 		};
+		05D3C6151BC8708000A4532A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Debugger/Debugger.entitlements;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios-2.6.1",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Debugger/Debugger-Prefix.pch";
+				INFOPLIST_FILE = "Debugger/Debugger-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tokbox.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05D3C6161BC8708000A4532A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Debugger/Debugger.entitlements;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios-2.6.1",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Debugger/Debugger-Prefix.pch";
+				INFOPLIST_FILE = "Debugger/Debugger-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tokbox.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		1FE24FD614F71E47002929E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -966,15 +966,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05346B581BC5DE9B0038AB49 /* Build configuration list for PBXNativeTarget "Debugger-2.6.0" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				05346B591BC5DE9B0038AB49 /* Debug */,
-				05346B5A1BC5DE9B0038AB49 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		05346B811BC5DF380038AB49 /* Build configuration list for PBXNativeTarget "Debugger-2.5.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -998,6 +989,15 @@
 			buildConfigurations = (
 				05346BD61BC5E2760038AB49 /* Debug */,
 				05346BD71BC5E2760038AB49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05D3C6141BC8708000A4532A /* Build configuration list for PBXNativeTarget "Debugger-2.6.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D3C6151BC8708000A4532A /* Debug */,
+				05D3C6161BC8708000A4532A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
